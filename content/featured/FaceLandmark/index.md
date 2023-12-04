@@ -1,15 +1,17 @@
 ---
-date: '4'
-title: 'AI Face Landmark Detection'
-cover: 'face-landmark.png'
-github: 'https://github.com/yashitanamdeo/face-landmark-detection'
-external: 'https://yashitanamdeo.github.io/face-landmark-detection/'
+date: '5'
+label: 'Design de Marque IRHT'
+title: 'Projet Web Dev - AllBooked'
+cover: 'All.png'
+githaub: ''
+external: ''
 tech:
-  - TensorFlow.JS
+  - JS
+  - CSS
+  - Node
+  - Github
   - React
 showInProjects: true
 ---
 
-Facial landmark recognition allows you to detect a number of different points on your face that together make up your eyes, mouth, ears, nose and so on.
-
-Inspired by Nicholas Renotte's [Youtube Tutorial](https://www.youtube.com/watch?v=7lXYGDVHUNw).
+Crée en équipe avec React, Allbooked est une plateforme de recherche de ressource littéraire, puisée dans l'API Google Books. L'utilisateur peut rechercher des livres, accéder à leur page descriptive, les enregistrer dans ses favoris. Accéder aux recommandations des modérateurs et être redirigé sur des liens partenaires pour acheter l'oeuvre.

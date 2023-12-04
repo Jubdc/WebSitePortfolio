@@ -10,6 +10,8 @@ const StyledContainer = styled(Section)`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 100px;
+  margin-top: -390px;
+
   a {
     ${mixins.inlineLink};
   }
@@ -22,6 +24,8 @@ const StyledHeading = styled(Heading)`
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;
+  margin-left: 140px;
+
   ${media.desktop`font-size: ${fontSizes.sm};`};
   &:before {
     bottom: 0;
@@ -57,7 +61,7 @@ const Contact = ({ data }) => {
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
 
-      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
+      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="">
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>

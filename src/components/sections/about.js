@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig, github, Behance } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -16,7 +16,7 @@ const StyledFlexContainer = styled.div`
   ${media.tablet`display: block;`};
 `;
 const StyledContent = styled.div`
-  width: 60%;
+  width: 50%;
   max-width: 480px;
   ${media.tablet`width: 100%;`};
   a {
@@ -25,6 +25,7 @@ const StyledContent = styled.div`
 `;
 const SkillsContainer = styled.ul`
   display: grid;
+
   grid-template-columns: repeat(2, minmax(140px, 200px));
   overflow: hidden;
   padding: 0;
@@ -49,31 +50,32 @@ const Skill = styled.li`
 `;
 const StyledPic = styled.div`
   position: relative;
-  width: 40%;
-  max-width: 300px;
+  width: 50%;
+  max-width: 400px;
   margin-left: 60px;
+  margin-right: -10px;
   ${media.tablet`margin: 60px auto 0;`};
   ${media.phablet`width: 70%;`};
   a {
     &:focus {
-      outline: 0;
+      outline: 0;ground
     }
+    // border: solid 2px yellow;
   }
 `;
 const StyledAvatar = styled(Img)`
   position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
+  filter: none;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
 `;
 const StyledAvatarLink = styled.a`
-  ${mixins.boxShadow};
-  width: 100%;
+  width: 110%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.lightestSlate};
-  margin-left: -20px;
+
+  margin-left: -10px;
+
   &:hover,
   &:focus {
     background: transparent;
@@ -105,7 +107,7 @@ const StyledAvatarLink = styled.a`
     mix-blend-mode: screen;
   }
   &:after {
-    border: 2px solid ${colors.green};
+    border: 0px solid ${colors.green};
     top: 10px;
     left: 10px;
     z-index: -1;
@@ -129,7 +131,7 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink href={Behance}>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>

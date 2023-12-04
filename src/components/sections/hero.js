@@ -5,17 +5,21 @@ import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
+import behanceIcon from '../icons/Cercle.png';
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
+
+  position: relative;
   ${media.tablet`padding-top: 150px;`};
   div {
     width: 100%;
   }
 `;
+
 const StyledOverline = styled.h1`
   color: ${colors.green};
   margin: 0 0 20px 3px;
@@ -29,13 +33,13 @@ const StyledTitle = styled.h2`
   font-size: 80px;
   line-height: 1.1;
   margin: 0;
-  ${media.desktop`font-size: 70px;`};
+  ${media.desktop`font-size: 50px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 50px;
   line-height: 1.1;
   color: ${colors.slate};
   ${media.desktop`font-size: 70px;`};
@@ -54,6 +58,21 @@ const StyledDescription = styled.div`
 const StyledEmailLink = styled.a`
   ${mixins.bigButton};
   margin-top: 50px;
+`;
+
+const StyledIcon = styled.img`
+  position: absolute;
+  top: 63%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  height: 260px;
+
+  @media (max-width: 940px) and (max-height: 800px) {
+    display: none;
+  }
+
+  // Vous pouvez ajouter d'autres styles si nécessaire
 `;
 
 const Hero = ({ data }) => {
@@ -87,7 +106,11 @@ const Hero = ({ data }) => {
     </div>
   );
 
-  const items = [one, two, three, four, five];
+  const six = () => (
+    <StyledIcon src={behanceIcon} alt="Behance Icon" style={{ transitionDelay: ` 600ms` }} />
+  );
+
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledContainer>
@@ -99,6 +122,7 @@ const Hero = ({ data }) => {
             </CSSTransition>
           ))}
       </TransitionGroup>
+      <StyledIcon src={behanceIcon} alt="Behance Icon" />
     </StyledContainer>
   );
 };

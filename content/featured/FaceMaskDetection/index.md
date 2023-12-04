@@ -1,18 +1,16 @@
 ---
-date: '3'
-title: 'Real-Time Face Mask Detection'
-cover: 'face-mask.png'
-github: 'https://github.com/yashitanamdeo/Realtime-Face-Mask-Detection'
-external: 'https://drive.google.com/file/d/1AFIZC2R4F3pmTlNZgq4BcIC2Uv_l2UGI/view?usp=sharing'
+date: '4'
+label:
+title: 'Projet Web Dev - SpaceJS '
+cover: 'Space.png'
+github: ''
+external: ''
 tech:
-  - OpenCV
-  - MobileNetV2
-  - TensorFlow
-  - Keras
-  - Python
+  - JavaScript
+  - HTML/CSS
+  - Node
+  - Github
 showInProjects: true
 ---
 
-Face Mask Detection system to automatically detect the face masks on people in real time through webcams. Own custom dataset was built using Bing Search API and Kaggle. Achieved 95% accuracy in all mask colors; managed to improve efficiency in all lighting conditions
-
-Inspired by Adrian Rosebrock's [PyImageSearch Blog](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/).
+Premier projet réalisé en équipe. Il s'agit d'un coockie-clicker version space opéra. L'objectif est de cliquer sur la fusée pour débloquer des points permettant d'aheter des bonus multiplicateur de score. L'objectif du joueur es de voyager à travers l'espace pour rejoindre la planête JS !

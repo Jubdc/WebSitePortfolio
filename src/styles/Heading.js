@@ -8,7 +8,7 @@ const Heading = styled.h3`
   display: flex;
   align-items: center;
   margin: 10px 0 40px;
-  width: 100%;
+  width: 50%;
   white-space: nowrap;
   font-size: ${fontSizes.h3};
   ${media.tablet`font-size: 24px;`};

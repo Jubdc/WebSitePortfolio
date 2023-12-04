@@ -1,38 +1,35 @@
 module.exports = {
-  siteTitle: 'Yashita Namdeo',
+  siteTitle: 'Julien Baudic',
   siteDescription:
-    'Yashita Namdeo is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Julien Baudic is an incoming Web Developer, based in France, who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Yashita Namdeo, Yashita, Namdeo, yashitanamdeo, software engineer, web developer, javascript, python, java, svvv, indore',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+    'Julien Baudic, Julien, Baudic, julienbaudic, Web Developer, javascript, python, java, svvv, France',
+  siteUrl: 'https://julienbaudic',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Yashita Namdeo',
-  location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  name: 'Julien Baudic',
+  location: 'Tours, France',
+  email: 'julienbaudic.pro@gmail.com',
+  github: 'https://github.com/Jubdc',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/Jubdc',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yashitanamdeo/',
+      url: 'https://www.linkedin.com/in//',
     },
+
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/yashitanamdeo',
+      name: 'Twitter',
+      url: 'https://www.behance.net/julienbaudic',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/yashitanamdeo',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/',
+      url: 'https://www.instagram.com/julienbdc.art/?hl=fr',
     },
   ],
 

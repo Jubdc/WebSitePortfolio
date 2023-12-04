@@ -14,8 +14,11 @@ const StyledTabs = styled.div`
   display: flex;
   align-items: flex-start;
   position: relative;
+
   ${media.thone`
     display: block;
+    
+
   `};
 `;
 const StyledTabList = styled.ul`
@@ -33,6 +36,7 @@ const StyledTabList = styled.ul`
     margin-bottom: 30px;
     width: calc(100% + 100px);
     margin-left: -50px;
+    
   `};
   ${media.phablet`
     width: calc(100% + 50px);
@@ -195,7 +199,7 @@ const Jobs = ({ data }) => {
 
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
-      <Heading>Where I&apos;ve Worked</Heading>
+      <Heading>Mon Parcours</Heading>
       <StyledTabs>
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
           {data &&

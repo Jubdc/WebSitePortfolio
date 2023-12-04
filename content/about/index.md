@@ -1,22 +1,21 @@
 ---
 title: 'About Me'
-avatar: 'me.jpg'
+avatar: 'Moid.png'
 skills:
-  - Coding
-  - Reading
-  - Painting
-  - Crafting
-  - Problem Solving
-  - Team Management
-  - Mentoring
+  - JavaScript
+  - HTML/CSS
+  - React
+  - Git/Github
+  - Node.js
+  - SQL
 ---
 
-Hello! I'm Yashita Namdeo, from Indore, also known as Mini Mumbai and the Cleanest City of India.
+Salut ! Moi, c'est Julien !
 
-I am a creative, time punctual, dedicated, goal-oriented individual with decent moral Values and Ethicates along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail.
+Actuellement en formation en développement web à la Wild Code School, je cherche une alternance qui me permettra de mettre en pratique et de perfectionner mes compétences.
 
-I am pursuing my Bachelors from [SVVV, Indore](https://www.svvv.edu.in/) in Computer Science and Engineering (2018-2022) my current GPA is [3.7]() out of 4.
+Issu d'une reconversion, j'ai réalisé un master en histoire contemporaine entre Poitiers et Manchester en 2017. Par la suite, j'ai enseigné l'histoire en lycée. Cette expérience a aiguisé ma rigueur, mon appétence pour l'apprentissage et mes objectifs professionnels.
 
-I am a member of [Developer Student Club - SVVV](https://dsc.community.dev/shri-vaishnav-vidyapeeth-vishwavidyalaya/) and have also been awarded 75% Merit Scholarship(Top 10%) by my college.
+En parallèle, je me suis intéressé au graphisme de manière autodidacte. Mon book est disponible sur Behance. Naturellement, le web design m'a confronté au développement web, pour lequel j’ai développé une passion.
 
-Here are a few of the other activities that I love to do!
+Voici les technologies sur lesquels j'ai récemment travaillé :

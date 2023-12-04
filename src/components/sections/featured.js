@@ -31,6 +31,7 @@ const StyledLabel = styled.h4`
   font-family: ${fonts.SFMono};
   margin-top: 10px;
   padding-top: 0;
+  border: so;
 `;
 const StyledProjectName = styled.h5`
   font-size: 28px;
@@ -92,6 +93,7 @@ const StyledTechList = styled.ul`
   }
 `;
 const StyledLinkWrapper = styled.div`
+border:solid 2px
   display: flex;
   align-items: center;
   position: relative;
@@ -112,13 +114,12 @@ const StyledFeaturedImg = styled(Img)`
   vertical-align: middle;
   border-radius: ${theme.borderRadius};
   position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1) brightness(90%);
+  // mix-blend-mode et filter ont été retirés pour afficher l'image au naturel
   ${media.tablet`
     object-fit: cover;
     width: auto;
     height: 100%;
-    filter: grayscale(100%) contrast(1) brightness(80%);
+    // Ici aussi, filter a été retiré pour le style tablette
   `};
 `;
 const StyledImgContainer = styled.a`
@@ -127,38 +128,43 @@ const StyledImgContainer = styled.a`
   grid-row: 1 / -1;
   position: relative;
   z-index: 1;
-  background-color: ${colors.green};
   border-radius: ${theme.radius + 1}px;
   transition: ${theme.transition};
   ${media.tablet`height: 100%;`};
   ${media.thone`
     grid-column: 1 / -1;
-    opacity: 0.25;
+    // opacity supprimée pour éviter tout effet d'estompage sur l'image
   `};
-  &:hover,
-  &:focus {
-    background: transparent;
-    &:before,
-    ${StyledFeaturedImg} {
+
+  @media (max-width: 600px) and (max-height: 584px) {
+    display: none;
+
+    &:hover,
+    &:focus {
       background: transparent;
-      filter: none;
+      &:before,
+      ${StyledFeaturedImg} {
+        background: transparent;
+        filter: none;
+      }
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: ${theme.transition};
+      background-color: ${colors.navy};
+      mix-blend-mode: screen;
     }
   }
-  &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
-    transition: ${theme.transition};
-    background-color: ${colors.navy};
-    mix-blend-mode: screen;
-  }
 `;
+
 const StyledProject = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -194,11 +200,12 @@ const StyledProject = styled.div`
       margin-right: -10px;
     }
     ${StyledImgContainer} {
+      border: solid 2px, red;
       grid-column: 1 / 8;
       ${media.tablet`height: 100%;`};
       ${media.thone`
         grid-column: 1 / -1;
-        opacity: 0.25;
+        
       `};
     }
   }
@@ -216,18 +223,18 @@ const Featured = ({ data }) => {
 
   return (
     <StyledContainer id="projects">
-      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <Heading ref={revealTitle}>Mon Portfolio Web Dev & Web Design</Heading>
 
       <div>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, label } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
+                  <StyledLabel>{label || 'Project Featured'}</StyledLabel>
                   <StyledProjectName>
                     {external ? (
                       <a

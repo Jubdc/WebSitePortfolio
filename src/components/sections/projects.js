@@ -46,6 +46,7 @@ const StyledGrid = styled.div`
 const StyledProjectInner = styled.div`
   ${mixins.boxShadow};
   ${mixins.flexBetween};
+
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -57,6 +58,7 @@ const StyledProjectInner = styled.div`
 `;
 const StyledProject = styled.div`
   transition: ${theme.transition};
+
   cursor: default;
   &:hover,
   &:focus {
@@ -145,10 +147,8 @@ const Projects = ({ data }) => {
 
   return (
     <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
-      <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
-        View Complete List of Projects/Codes
-      </StyledArchiveLink>
+      <StyledTitle ref={revealTitle}></StyledTitle>
+      <StyledArchiveLink to="/archive" ref={revealArchiveLink}></StyledArchiveLink>
 
       <StyledGrid>
         <TransitionGroup className="projects">
@@ -215,10 +215,6 @@ const Projects = ({ data }) => {
             })}
         </TransitionGroup>
       </StyledGrid>
-
-      <StyledMoreButton onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </StyledMoreButton>
     </StyledContainer>
   );
 };

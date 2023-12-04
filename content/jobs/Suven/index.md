@@ -1,15 +1,16 @@
 ---
-date: '2021-05-19'
-title: 'Web Development Intern'
-company: 'Suven C&T'
+date: '2022-05-19'
+title: 'Web Designer'
+company: 'Udemy'
 location: remote
-range: 'May 2021 - June 2021'
-url: 'https://internship.suvenconsultants.com/'
+range: 'May 2022 - June 2022'
+url: 'https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.ROW&utm_term=_._ag_80315195513_._ad_535757779892_._de_c_._dm__._pl__._ti_kwd-296956216253_._li_9112162_._pd__._&utm_term=_._pd__._kw_udemy_._&matchtype=b&gad_source=1&gclid=Cj0KCQjwqP2pBhDMARIsAJQ0CzpkgeOZS3y-9vDxNvUCuzZBeLXSIJAepiqsXH6MkaKVYkO-yVgILSkaAppYEALw_wcB'
 ---
 
-- Directed and shaped a 365 Entertainment and Blogging Frontend Website, using HTML5 and CSS3
-- Developed a 1 page CSS Static Website and Voter Registration page with basic stylings
-- Designed and deployed 2 e-learning portals, and 2 e-commerce platforms using Bootstrap
-- Modeled an e-Food and an Alumni Management Portals during a 2-month coding internship
-- View [HTML-CSS CERTIFICATE](https://drive.google.com/file/d/1W7c94PXLUn6LM4JOJuC-hKAgOknh6-U_/view?usp=sharing)
-- View [BOOTSTRAP CERTIFICATE](https://drive.google.com/file/d/1e4Tx7ghRP06EyBlulRoT9Qi5m3EAaWtj/view?usp=sharing)
+- Année durant laquelle j’ai appris en semi-autodidacte l’outil essentiel au monde du graphisme : la suite Adobe.
+
+- Mon apprentissage fut facilité grâce aux formations de deux éminents graphic designer anglo-saxons, Lindsay Marsh et Daniel Scott.
+
+- L’objectif final fut la création de deux portfolios représentants mes capacités et mon univers graphique. Le premier sur Instagram, le second sur Behance.
+
+- Mon book est disponible ici : https://www.behance.net/julienbaudic

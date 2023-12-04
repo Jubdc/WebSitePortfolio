@@ -39,10 +39,10 @@ const theme = {
   easing: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
   transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)',
 
-  borderRadius: '3px',
+  borderRadius: '1px',
   navHeight: '100px',
-  navScrollHeight: '70px',
-  margin: '20px',
+  navScrollHeight: '90px',
+  margin: '50px',
 
   tabHeight: 42,
   tabWidth: 120,
@@ -59,3 +59,69 @@ const theme = {
 };
 
 export default theme;
+
+// ORIGINAL COLORS
+// import { hex2rgba } from '@utils';
+
+// const ACCENT = '#64ffda';
+// const DARK_BG = '#020c1b';
+// const BG = '#0a192f';
+
+// const theme = {
+//   colors: {
+//     darkNavy: DARK_BG,
+//     navy: BG,
+//     lightNavy: '#172a45',
+//     lightestNavy: '#303C55',
+//     slate: '#8892b0',
+//     lightSlate: '#a8b2d1',
+//     lightestSlate: '#ccd6f6',
+//     white: '#e6f1ff',
+//     green: ACCENT,
+//     transGreen: hex2rgba(ACCENT, 0.07),
+//     shadowNavy: hex2rgba(DARK_BG, 0.7),
+//   },
+
+// Black & Blue
+// import { hex2rgba } from '@utils';
+
+// const ACCENT = '#3357d8';  //Réseaux = Bonjour, je m'appelle + mail + Mon C.V
+// const DARK_BG = '#3357d8'; //Ombre Navbar, plus Projets
+// const BG = '#1a1919'; //NavBar
+
+// const theme = {
+//   colors: {
+//     darkNavy: DARK_BG,
+//     navy: BG,
+//     lightNavy: '#172a45', //Rectangle Projets
+//     lightestNavy: '#303C55', //barre About
+//     slate: '#3357d8', //Recherche une alternance pour février 2024
+//     lightSlate: '#a8b2d1', //barres latérales
+//     lightestSlate: '#ccd6f6', //About, Experience,
+//     white: '#e6f1ff',
+//     green: ACCENT,
+//     transGreen: hex2rgba(ACCENT, 0.07),
+//     shadowNavy: hex2rgba(DARK_BG, 0.7),
+//   },
+
+// FULL WHITE
+// import { hex2rgba } from '@utils';
+
+// const ACCENT = '#0f1413';  //Réseaux = Bonjour, je m'appelle + mail + Mon C.V
+// const DARK_BG = '#0f1413'; //Ombre Navbar, plus Projets
+// const BG = '#ffffff'; //NavBar + Site
+
+// const theme = {
+//   colors: {
+//     darkNavy: DARK_BG,
+//     navy: BG,
+//     lightNavy: '#172a45', //Rectangle Projets
+//     lightestNavy: '#303C55', //barre About et parcours
+//     slate: '#0f1413', //Recherche une alternance pour février 2024 + Police texte
+//     lightSlate: '#a8b2d1', //barres latérales
+//     lightestSlate: '#0f1413', //About, Experience, JULIEN BAUDIC
+//     white: '#0f1413',
+//     green: ACCENT,
+//     transGreen: hex2rgba(ACCENT, 0.07),
+//     shadowNavy: hex2rgba(DARK_BG, 0.7),
+//   },
