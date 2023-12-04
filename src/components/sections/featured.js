@@ -120,6 +120,20 @@ const StyledFeaturedImg = styled(Img)`
     width: auto;
     height: 100%;
     // Ici aussi, filter a été retiré pour le style tablette
+
+  @media (max-width: 500px) {
+    // Ajoutez ici le filtre de couleur pour les petits écrans
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.7); // Exemple de filtre noir semi-transparent
+      z-index: 1;
+    }
+  }
   `};
 `;
 const StyledImgContainer = styled.a`
