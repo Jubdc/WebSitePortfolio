@@ -5,6 +5,6 @@ subtitle: 'Recherche une alternance pour février 2024 !'
 buttonText: 'Me contacter'
 ---
 
-Élève à la Wilde Code School, je me spécialise en développement web et m'enthousiasme pour les technologies émergentes.
+Actuellement en formation intensive de 5 mois, je me spécialise en développement web dans l'objectif de passer un titre professionnel : développeur web & mobile.
 
-Très motivé par l'apprentissage et l'immersion dans le monde professionnel, il me tarde de m'engager pleinement dans une alternance.
+Très motivé par l'apprentissage et l'immersion dans le monde professionnel, il me tarde de trouver un contrat de professionnalisation de douze mois pour février 2024 !

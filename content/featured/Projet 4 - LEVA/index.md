@@ -14,6 +14,6 @@ showInProjects: true
 
 Projet Solo - 100% Web Design.
 
-LEVA is a high-quality minimalist clothing brand, wih emphasize the personality of its owner. The brand's philosophy in two words : "Siimplicity and Elegance".
+LEVA is a high-quality minimalist clothing brand, which emphasizes the personality of its owner. The brand's philosophy in two words: "Simplicity and Elegance".
 
-The main idea was to make a pleasant experience for cusotmers by creating a E-shop that reflect the atmosphere o the brand.
+The main idea was to make a pleasant experience for customers by creating an E-shop that reflects the atmosphere of the brand.
