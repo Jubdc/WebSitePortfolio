@@ -14,4 +14,4 @@ tech:
 showInProjects: true
 ---
 
-Crée en équipe avec React, Allbooked est une plateforme de recherche de ressource littéraire, puisée dans l'API Google Books. L'utilisateur peut rechercher des livres, accéder à leur page descriptive, les enregistrer dans ses favoris. Accéder aux recommandations des modérateurs et être redirigé sur des liens partenaires pour acheter l'oeuvre.
+Créée en équipe avec React, Allbooked est une plateforme de recherche de ressources littéraires, puisée dans l'API Google Books. L'utilisateur peut rechercher des livres, accéder à leur page descriptive, les enregistrer dans ses favoris. Accéder aux recommandations des modérateurs et être redirigé sur des liens partenaires pour acheter l'œuvre.

@@ -8,4 +8,4 @@ url: 'https://www.theforage.com/'
 ---
 
 - Master de recherche en histoire contemporaine, durant lequel j'ai réalisé deux mémoires.
-- Licence d'histoire, réalisé entre Poitiers et Manchester.
+- Licence d'histoire, réalisée entre Poitiers et Manchester.

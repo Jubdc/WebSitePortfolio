@@ -16,6 +16,6 @@ Actuellement en formation en développement web à la Wild Code School, je cherc
 
 Issu d'une reconversion, j'ai réalisé un master en histoire contemporaine entre Poitiers et Manchester en 2017. Par la suite, j'ai enseigné l'histoire en lycée. Cette expérience a aiguisé ma rigueur, mon appétence pour l'apprentissage et mes objectifs professionnels.
 
-En parallèle, je me suis intéressé au graphisme de manière autodidacte. Mon book est disponible sur Behance. Naturellement, le web design m'a confronté au développement web, pour lequel j’ai développé une passion.
+En parallèle, je me suis intéressé au graphisme de manière autodidacte. Mon book est disponible sur Behance. Naturellement, le web design m'a confronté au développement web, pour lequel j'ai développé une passion.
 
-Voici les technologies sur lesquels j'ai récemment travaillé :
+Voici les technologies sur lesquelles j'ai récemment travaillé :

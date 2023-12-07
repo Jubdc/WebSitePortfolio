@@ -15,6 +15,6 @@ showInProjects: true
 Projet Solo - 100% Web Design.
 
 Respublica est une association parisienne créée par un collectif civil cherchant à renforcer les liens sociaux des citoyens.
-L’association a pour objectif de mettre en exergue les valeurs de la république française.
-Ainsi, elle organise des évènements sur tout le territoire, de la petite ville à la mégalopole. Ses actions consistent principalement à l’organisation de week-end « citoyens » durant lesquels des réunions, débats et conférences sont organisés.
+L’association a pour objectif de mettre en exergue les valeurs de la République française.
+Ainsi, elle organise des événements sur tout le territoire, de la petite ville à la mégalopole. Ses actions consistent principalement à l’organisation de week-ends « citoyens » durant lesquels des réunions, débats et conférences sont organisés.
 Cliquez sur l'image pour voir tous les détails de ce projet directement sur Behance.
