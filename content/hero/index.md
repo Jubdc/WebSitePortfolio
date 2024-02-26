@@ -1,7 +1,7 @@
 ---
 title: "Bonjour, je m'apelle"
 name: 'Julien Baudic'
-subtitle: 'Recherche une alternance pour février 2024 !'
+subtitle: 'Recherche une alternance pour février 2024!'
 buttonText: 'Me contacter'
 ---
 
